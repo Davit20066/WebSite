@@ -1,0 +1,1349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-image: url(./img/HEADER.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header{
+    width: 100%;
+    height: 180px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.HeaderLogoImage{
+    width: 10%;
+}
+.HeaderLogoImage img{
+    width: 100%;
+}
+header ul{
+    width: 37%;
+    height: 45px;
+    margin-left: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255, 1);
+}
+header ul li{
+    list-style: none;
+}
+.cart-outline{
+    color: rgba(255, 255, 255, 1);
+}
+header ul li a{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 1);
+}
+.HeaderTellNumber{
+    width: 15%;
+}
+.HeaderTellNumber p{
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.HeaderNumber{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.HeaderNumber h4{
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+.call-outline{
+    width: 20px;
+    height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+header button{
+    width: 15%;
+    height: 45px;
+    border-style: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 116, 0, 1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+header button:hover{
+    background-color: rgb(210, 95, 0);
+}
+.HeaderMobileHide{
+    display: none;
+}
+.FirstSection{
+    width: 100%;
+    padding-top: 9%;
+    padding-right: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FirstSection h2{
+    font-family: "Tinos";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0em;
+    color: rgba(214, 126, 53, 1);
+}
+.FirstSection h1{
+    font-family: "Tinos";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 92px;
+    letter-spacing: 0em;
+    color: rgba(214, 126, 53, 1);
+}
+.FirstSectionAroundLines{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.FirstSectionLine{
+    width: 70px;
+    height: 1px;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.FirstSection h3{
+    width: 85%;
+    padding-bottom: 4%;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.FirstSection button{
+    width: 20%;
+    height: 40px;
+    border: none;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    background-color: rgba(255, 116, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.SecondSection{
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.SecondSectionWrapper{
+    width: 300px;
+    height: 300px;
+    padding: 50px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 30px 0px 30px rgba(0, 0, 0, 0.1), -30px 0px 30px rgba(0, 0, 0, 0.1), 0px 30px 30px rgba(0, 0, 0, 0.1);
+}
+.SecondSectionWrapper img{
+    width: 30%;
+}
+.SecondSectionWrapper h2{
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Tinos";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(44, 44, 44, 1);
+}
+.SecondSectionWrapper b{
+    padding-left: 4px;
+    font-family: "Tinos";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(188, 144, 96, 1)
+}
+.SecondSectionWrapper p{
+    font-family: "Tinos";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(101, 99, 99, 1);
+}
+.ThirdSection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.ThirdSectionContainer{
+    width: 39%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ThirdSectionContainer h1{
+    width: 100%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Tinos";
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 1);
+}
+.ThirdSectionContainer b{
+    padding-left: 3%;
+    font-family: "Tinos";
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0em;
+    color: rgba(214, 126, 52, 1);
+}
+.ThirdSectionContainer p{
+    width: 100%;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(101, 99, 99, 1);
+}
+.ThirdSectionContainerInside{
+    width: 100%;
+    padding-top: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ThirdSectionWrapper{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ThirdSectionWrapper h2{
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(188, 144, 96, 1);
+}
+.ThirdSectionWrapper span{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.ThirdSectionImage{
+    width: 37%;
+}
+.ThirdSectionImage img{
+    width: 100%;
+}
+.FourthSection{
+    width: 100%;
+    margin-top: 8%;
+    padding-top: 7.5%;
+    padding-bottom: 10%;
+    padding-right: 2%;
+    padding-left: 1%;
+    background-image: url(./img/Rectangle\ 38.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.FourthSectionContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FourthSectionContainer h1{
+    font-family: "Tinos";
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    color: rgba(214, 126, 52, 1);
+}
+.FourthSectionContainer p{
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+.FourthSectionButton{
+    width: 17%;
+}
+.FourthSectionButton button{
+    width: 100%;
+    height: 45px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    background-color: rgba(255, 116, 0, 1);
+}
+.FifthSection{
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.FifthSection h1{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: "Tinos";
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 1);
+}
+.FifthSection b{
+    font-family: "Tinos";
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    color: rgba(214, 126, 52, 1);
+}
+.FifthSectionContainer{
+    width: 100%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FifthSectionContainerImage{
+    width: 33.2%;
+    margin-right: 2%;
+}
+.FifthSectionContainerImage img{
+    width: 100%;
+}
+.FifthSectionContainerItems{
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.FifthSectionContainerWrapper{
+    width: 100%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.FifthSectionContainerWrapper img{
+    width: 29%;
+}
+.FifthSectionContainerWrapper h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Tinos";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(0, 0, 0, 1);
+}
+.SixthSection{
+    width: 100%;
+    padding-bottom: 25%;
+    background-image: url(./img/bar-1869656_1920\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.SixthSection h1{
+    margin-top: 14%;
+    padding-bottom: 6%;
+    font-family: "Tinos";
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+.SixthSectionContainer{
+    width: 100%;
+    height: 470px;
+    padding-top: 2%;
+    padding-left: 12%;
+    padding-right: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.SixthSectionWrapper{
+    width: 30%;
+    height: 100%;
+    padding-top: 6%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+.SixthSectionWrapper img{
+    width: 70%;
+}
+.SixthSectionWrapper h2{
+    width: 100%;
+    font-family: "Tinos";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.SixthSectionWrapper h3{
+    width: 70%;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.SixthSectionWrapper button{
+    width: 60%;
+    height: 40px;
+    margin-bottom: 3%;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(214, 126, 52, 1);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.SixthSectionWrapper span{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 41%;
+    left: 56%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cookie";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 1);
+    background-color: rgba(214, 126, 52, 1);
+}
+.SixthSectionWrapper h4{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(214, 126, 52, 1);
+}
+.SeventhSection{
+    width: 100%;
+    padding: 2% 2% 5% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SeventhSection p{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.SeventhSection img{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 10%;
+}
+.SeventhSection h1{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 1);
+}
+.SeventhSection h2{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 1);
+}
+.EightSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.EightSection h1{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: "Tinos";
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 1);
+}
+.EightSection b{
+    font-family: "Tinos";
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    color: rgba(214, 126, 52, 1);
+}
+.EightSectionContainer{
+    width: 100%;
+    padding-bottom: 2.4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.EightSectionContainer img:nth-child(2){
+    margin: 0 30px 0 30px;
+}
+.NinthSection{
+    width: 100%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.NinthSection h1{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: "Tinos";
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 1);
+}
+.NinthSection b{
+    font-family: "Tinos";
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    color: rgba(214, 126, 52, 1);
+}
+.NinthSectionContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.NinthSectionContainer img{
+    width: 27.8%;
+}
+.NinthSectionContainer img:nth-child(2){
+    margin-left: 2%;
+    margin-right: 2%;
+}
+footer div{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./img/MAKE\ A\ RESERVATION.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 300px) {
+    body{
+        width: 100%;
+        background-image: url(./img/hero\ image.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    header{
+        width: 100%;
+        height: 70px;
+        padding-left: 3%;
+        padding-right: 3%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .HeaderLogoImage{
+        width: 14%;
+        padding-top: 3%;
+    }
+    .HeaderLogoImage img{
+        width: 100%;
+    }
+    header ul{
+        display: none;
+    }
+    .HeaderTellNumber{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    .HeaderMobileHide{
+        display: block;
+    }
+    .menu{
+        width: 40px;
+        height: 40px;
+        color: rgba(255, 116, 0, 1);
+    }
+    .FirstSection{
+        width: 100%;
+        padding-top: 68%;
+        padding-right: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .FirstSection h2{
+        font-family: "Tinos";
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        color: rgba(214, 126, 53, 1);
+    }
+    .FirstSection h1{
+        font-family: "Tinos";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 46px;
+        letter-spacing: 0em;
+        color: rgba(214, 126, 53, 1);
+    }
+    .FirstSectionLine{
+        display: none;
+    }
+    .FirstSectionAroundLines{
+        width: 100%;
+    }
+    .FirstSection h3{
+        width: 100%;
+        padding-bottom: 12%;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+    .FirstSection button b{
+        display: none;
+    }
+    .FirstSection button{
+        width: 130px;
+        height: 40px;
+        border: none;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        background-color: rgba(255, 116, 0, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    .SecondSection{
+        width: 100%;
+        padding-top: 55%;
+        padding-bottom: 5%;
+        padding-left: 0%;
+        padding-right: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .SecondSectionWrapper{
+        width: 260px;
+        height: 260px;
+        margin-top: 20px;
+        padding: 40px 20px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 30px 0px 30px rgba(0, 0, 0, 0.1), -30px 0px 30px rgba(0, 0, 0, 0.1), 0px 30px 30px rgba(0, 0, 0, 0.1);
+    }
+    .SecondSectionWrapper img{
+        width: 35%;
+    }
+    .SecondSectionWrapper h2{
+        padding-bottom: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Tinos";
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        color: rgba(44, 44, 44, 1);
+    }
+    .SecondSectionWrapper b{
+        padding-left: 4px;
+        font-family: "Tinos";
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        color: rgba(188, 144, 96, 1)
+    }
+    .SecondSectionWrapper p{
+        font-family: "Tinos";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(101, 99, 99, 1);
+    }
+    .ThirdSection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .ThirdSectionContainer{
+        width: 100%;
+        padding-top: 12%;
+        padding-right: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ThirdSectionContainer h1{
+        width: 100%;
+        padding-bottom: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Tinos";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        color: rgba(0, 0, 0, 1);
+    }
+    .ThirdSectionContainer b{
+        padding-left: 3%;
+        font-family: "Tinos";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em;
+        color: rgba(214, 126, 52, 1);
+    }
+    .ThirdSectionContainer p{
+        width: 100%;
+        padding-top: 8%;
+        padding-left: 4%;
+        padding-right: 4%;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(101, 99, 99, 1);
+    }
+    .ThirdSectionContainerInside{
+        width: 100%;
+        padding-top: 12%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .ThirdSectionWrapper{
+        width: 100%;
+        padding-top: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .ThirdSectionWrapper h2{
+        font-family: "Open Sans";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(188, 144, 96, 1);
+    }
+    .ThirdSectionWrapper span{
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+    }
+    .ThirdSectionImage{
+        width: 100%;
+        padding-top: 15%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .ThirdSectionImage img{
+        width: 100%;
+    }
+    .FourthSection{
+        width: 100%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+        padding-top: 7.5%;
+        padding-bottom: 10%;
+        padding-right: 2%;
+        padding-left: 1%;
+        background-image: url(./img/Rectangle\ 38.png);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .FourthSectionContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .FourthSectionContainer h1{
+        padding-left: 24%;
+        padding-right: 24%;
+        font-family: "Tinos";
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(214, 126, 52, 1);
+    }
+    .FourthSectionContainer p{
+        width: 80%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: rgba(255, 255, 255, 1);
+    }
+    .FourthSectionButton{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .FourthSectionButton button{
+        width: 55%;
+        height: 45px;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: rgba(255, 255, 255, 1);
+        border: none;
+        background-color: rgba(255, 116, 0, 1);
+    }
+    .FifthSection{
+        width: 100%;
+        padding-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .FifthSection h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Tinos";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+    }
+    .FifthSection b{
+        font-family: "Tinos";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(214, 126, 52, 1);
+    }
+    .FifthSectionContainer{
+        width: 100%;
+        padding-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .FifthSectionContainerImage{
+        width: 100%;
+        margin-right: 0%;
+    }
+    .FifthSectionContainerImage img{
+        width: 100%;
+    }
+    .FifthSectionContainerItems{
+        width: 100%;
+        padding-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .FifthSectionContainerWrapper{
+        width: 100%;
+        padding-bottom: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .FifthSectionContainerWrapper img{
+        width: 29%;
+    }
+    .FifthSectionContainerWrapper h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Tinos";
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+    }
+    .FifthSectionContainerWrapper i{
+        display: none;
+    }
+    .SixthSection{
+        width: 100%;
+        padding-bottom: 25%;
+        background-image: url(./img/bar-for-media.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .SixthSection h1{
+        margin-top: 10%;
+        padding-bottom: 6%;
+        font-family: "Tinos";
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 62px;
+        letter-spacing: 0em;
+        color: rgba(255, 255, 255, 1);
+    }
+    .SixthSectionContainer{
+        width: 100%;
+        height: 470px;
+        padding-top: 13%;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .SixthSectionWrapper:nth-child(2), .SixthSectionWrapper:nth-child(3){
+        display: none;
+    }
+    .SixthSectionWrapper{
+        width: 100%;
+        height: 100%;
+        padding-top: 6%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 1);
+    }
+    .SixthSectionWrapper img{
+        width: 70%;
+    }
+    .SixthSectionWrapper h2{
+        width: 100%;
+        font-family: "Tinos";
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+    }
+    .SixthSectionWrapper h3{
+        width: 70%;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+    }
+    .SixthSectionWrapper button{
+        width: 60%;
+        height: 40px;
+        margin-bottom: 3%;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(214, 126, 52, 1);
+        border: none;
+    }
+    .SixthSectionWrapper span{
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 31%;
+        left: 54%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: "Cookie";
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0em;
+        color: rgba(255, 255, 255, 1);
+        border-radius: 50%;
+        border: 8px solid rgba(255, 255, 255, 1);
+        background-color: rgba(214, 126, 52, 1);
+    }
+    .SixthSectionWrapper h4{
+        width: 120px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: rgba(0, 0, 0, 1);
+        background-color: rgba(214, 126, 52, 1);
+    }
+    .SeventhSection{
+        width: 100%;
+        padding: 2% 2% 5% 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .SeventhSection p{
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+    }
+    .SeventhSection img{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 30%;
+    }
+    .SeventhSection h1{
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        color: rgba(0, 0, 0, 1);
+    }
+    .SeventhSection h2{
+        padding-bottom: 10%;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        color: rgba(0, 0, 0, 1);
+    }
+    .EightSection{
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .EightSection h1{
+        width: 80%;
+        padding-top: 2%;
+        padding-bottom: 15%;
+        font-family: "Tinos";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 46px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+    }
+    .EightSection b{
+        font-family: "Tinos";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 46px;
+        letter-spacing: 0em;
+        color: rgba(214, 126, 52, 1);
+    }
+    .EightSectionContainer{
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .EightSectionContainer img{
+        width: 100%;
+        padding-top: 8%;
+    }
+    .NinthSection{
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .NinthSection h1{
+        padding-top: 15%;
+        padding-bottom: 15%;
+        font-family: "Tinos";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 46px;
+        letter-spacing: 0em;
+        color: rgba(0, 0, 0, 1);
+    }
+    .NinthSection b{
+        font-family: "Tinos";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 46px;
+        letter-spacing: 0em;
+        color: rgba(214, 126, 52, 1);
+    }
+    .NinthSectionContainer{
+        width: 100%;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .NinthSectionContainer img{
+        width: 100%;
+        padding-bottom: 8%;
+    }
+    .NinthSectionContainer img:nth-child(2){
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    footer div{
+        width: 100%;
+        height: 80vh;
+        padding-top: 0;
+        background-image: url(./img/st-826688_1920\ 1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }
+}
